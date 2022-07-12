@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài tập tổng hợp</title>
+</head>
+<body>
+<fieldset>
+    <legend>Your details</legend>
+    <label>Name: <br/>
+        <input type="text" name="name"/></label><br/>
+    <label>Email: <br/>
+        <input type="text" name="email"/></label><br/>
+</fieldset>
+<fieldset>
+    <legend>Your Review</legend>
+    <form action="http://www.example.com/profile.php">
+        <p>How did you hear about us?
+        <select name="social">
+            <option value="facebook">Facebook</option>
+            <option valua="Twitter">Twitter</option>
+            <option value="Google">Google</option>
+        </select></p>
+    </form>
+    <form action="http://www.example.com/profile.php">
+        <p>Would you visit again? <br/>
+            <input type="radio" name="service" value="Yes" checked="checked"/>Yes
+            <input type="radio" name="service" value="No">No
+            <input type="radio" name="service" value="Maybe">Maybe
+        </p>
+    </form>
+    <form action="http://www.example.com/comments.php">
+        <p>Comments:</p>
+        <textarea name="comments" cols="20" rows="4"></textarea>
+    </form>
+    <form action="http://www.example.com/profile.php">
+        <p><input type="checkbox" name="subscribe" value="Subscribe" checked="checked">Sign me up for email updates</p>
+        <input type="submit" name="subscribe" value="Submit Review"/>
+    </form>
+</fieldset>
+</body>
+</html>
